@@ -2,9 +2,7 @@ import sys
 
 
 def fac(num):
-    if num == 0:
-        return 1
-    return num * fac(num - 1)
+    return 1 if num == 0 else num * fac(num - 1)
 
 
 def main():

@@ -1,7 +1,7 @@
 from random import randint, sample
 
 # 初始化备选红色球
-red_balls = [x for x in range(1, 34)]
+red_balls = list(range(1, 34))
 # 选出六个红色球
 selected_balls = sample(red_balls, 6)
 # 对红色球进行排序
